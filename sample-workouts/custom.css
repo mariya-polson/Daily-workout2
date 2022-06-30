@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: Poppins, sans-serif;
+}
+.container1 {
+  position: relative;
+  top: 0px;
+  height: 770px;
+  width: 100%;
+  background: transparent linear-gradient(241deg, #ba51d9 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+}
+.topnav {
+  overflow: hidden;
+  height: 60px;
+  width: 526px;
+  position: absolute;
+  left: 532px;
+  /* background-color: tomato; */
+}
+.topnav a {
+  float: right;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 11px;
+}
+.magnifying-glass {
+  position: absolute;
+  top: 11px;
+  right: 243px;
+  width: 26px;
+}
+.employeeportal {
+  position: absolute;
+  top: 11px;
+  right: 102px;
+  width: 138px;
+  height: 26px;
+  font-size: smaller;
+  color: white;
+  background-color: #382780;
+  background: transparent linear-gradient(256deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-color: #382780;
+  padding: 0px;
+}
+.aspirelogo {
+  position: absolute;
+  /* top: 100px; */
+  left: 193px;
+  width: 100px;
+  /* background-color: blue; */
+}
+.middle {
+  height: 473px;
+  width: 627px;
+  float: right;
+  position: relative;
+  top: 206px;
+  right: 527px;
+  /* background-color: blue; */
+}
+.firstpage {
+  height: 464px;
+  width: 359px;
+  float: left;
+  position: relative;
+  top: 116px;
+  left: 759px;
+  /* background-color: turquoise; */
+}
+.image1 {
+  position: relative;
+  height: 545px;
+  width: 644px;
+  /* top: -19px; */
+  bottom: 41px;
+  /* left: -54px; */
+  right: 53px;
+}
+.dots {
+  position: relative;
+  top: 65px;
+  /* left: 34px; */
+  right: 100px;
+  height: 150px;
+  width: 177px;
+}
+.book {
+  position: relative;
+  top: 8px;
+  left: 1px;
+  height: 47px;
+  width: 138px;
+  background-color: rgba(67, 44, 70, 255);
+  border-color: white;
+  /* padding: 14px 28px;
+    font-size: medium; */
+  background-color: rgba(102, 54, 159, 255);
+}
+.arrow1 {
+  position: relative;
+  top: 44px;
+  left: 1px;
+  height: 30px;
+  width: 36px;
+  border: 1px solid white;
+  background: transparent url("img/Group 41.png") 0% 0% no-repeat padding-box;
+}
+.arrow2 {
+  position: relative;
+  top: 44px;
+  left: 20px;
+  height: 30px;
+  width: 36px;
+  border: 1px solid white;
+  background: transparent url("img/Group 41.png") 0% 0% no-repeat padding-box;
+}
+.carousel-fade .item {
+  opacity: 0;
+  transition-duration: 0.6s;
+  transition-property: opacity;
+}
+
+.carousel-fade .item.active,
+.carousel-fade .item-next.item-left,
+.carousel-fade .item-prev.item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.item-left,
+.carousel-fade .active.item-right {
+  opacity: 0;
+}
+
+.carousel-fade .item-next,
+.carousel-fade .item-prev,
+.carousel-fade .item.active,
+.carousel-fade .active.item-left,
+.carousel-fade .active.item-prev {
+  transform: translateX(0);
+  transform: translate3d(0, 0, 0);
+}
